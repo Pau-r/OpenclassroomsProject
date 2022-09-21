@@ -513,6 +513,7 @@ li {
     }
 
     h1 {
+        font-size: 22px;
         margin: 5% 0 5% 0;
     }
 
@@ -537,6 +538,24 @@ li {
         border-radius: 12px 12px 12px 12px;
     }
 
+    .titres {
+        margin: 5%;
+    }
+
+    .filtre {
+        margin: 5%;
+    }
+
+    .nom-filtres {
+        font-size: 16px;
+    }
+
+    .icon {
+        
+        width: 52px;
+        height: 52px;
+    }
+
     button {
         margin: 0;
         margin-top: 4%;
@@ -545,7 +564,11 @@ li {
     .info-logement {
         display: flex;
         align-items: flex-start;
-        margin: 8% 0 8% 0;
+        margin: 8% 5% 8% 5%;
+    }
+
+    .info-logement p{
+        font-size: 16px;
     }
 
     .cards {
@@ -563,9 +586,60 @@ li {
     .container {
         flex-direction: column;
         align-items: center;
+        margin-top: 3%;
     }
 
-    .column{
-        width: 80%;
+    .populaire{
+        font-size: 21px;
+        padding: 8% 0 5% 0 ;
+    }
+
+    .card-pop{
+        margin: 2% 0 4% 0;
+    }
+
+    .card-secondaire{
+        border-radius: 0%;
+        padding: 0% 5% 5% 5%;
+    }
+
+    .card-principal{
+        background-color: #FFF;
+        border-radius: 0px;
+        padding: 0% 5% 0% 5%;
+    }
+
+    h3{
+        margin: 5% 5% 5% 0;
+    }
+
+    .block-card{
+        justify-content: center;
+    }
+
+    .card{
+        width: 100%;
+        margin: 3% 0 3% 0;
+    }
+
+    #afficherplus{
+        margin-top: 7%;
+    }
+
+    h4{
+        margin: 10% 5% 5% 5%;
+    }
+
+    .column {
+        width: 90%;
+        height: 170px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+   
+    .titre-footer{
+        padding: 7% 0 7% 0;
     }
 }

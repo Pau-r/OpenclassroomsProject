@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'raleway';
     src: url(../Raleway/Raleway-Regular.ttf);
 }
@@ -18,10 +18,12 @@
 @font-face {
     font-family: 'ralewaybold';
     src: url(../Raleway/Raleway-SemiBold.ttf);
-}
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
 
 body {
-    font-family: 'raleway';
+    font-family: 'Raleway', sans-serif;
 }
 
 main {
@@ -31,7 +33,7 @@ main {
 a {
     text-decoration: none;
     color: #000;
-}
+} 
 
 /* HEADER */
 
@@ -55,7 +57,7 @@ nav {
 }
 
 nav a {
-    font-family: 'ralewaylight';
+    font-weight: 300;
     font-size: 16px;
     padding: 30px 15px 0 10px;
     margin-left: 25px;
@@ -76,13 +78,13 @@ nav a:active {
 
 
 h1 {
-    font-family: 'ralewaybold';
+    font-weight: 600;
     font-size: 21px;
     margin: 3% 0 0.5% 0;
 }
 
 h2 {
-    font-family: 'ralewaylight';
+    font-weight: 300;
     font-size: 16px;
     margin-bottom: 2%;
 }
@@ -103,7 +105,8 @@ label {
 }
 
 input[type=search] {
-    font-family: 'ralewaybold';
+    font-family: Raleway;
+    font-weight: 600;
     font-size: 18px;
     width: 18%;
     padding: 14px;
@@ -113,7 +116,8 @@ input[type=search] {
 }
 
 .input-desktop {
-    font-family: 'ralewaybold';
+    font-family: Raleway;
+    font-weight: 600;
     font-size: 18px;
     background-color: #0065FC;
     color: #FFF;
@@ -133,7 +137,7 @@ input[type=search] {
 /* FILTRE */
 
 .button-filtre a {
-    font-family: 'ralewaybold';
+    font-weight: 600;
     font-size: 18px;
     padding-right: 10px;
 }
@@ -153,7 +157,7 @@ input[type=search] {
 }
 
 .button-filtre {
-    font-family: 'ralewaybold';
+    font-weight: 600;
     font-size: 18px;
     background-color: transparent;
     margin: 10px;
@@ -161,6 +165,7 @@ input[type=search] {
 }
 
 .nom-filtres {
+    font-family: Raleway;
     border: 2px solid #dadada;
     border-radius: 70px;
     padding: 15px 15px 15px 60px;
@@ -180,7 +185,7 @@ input[type=search] {
 
 .titre-filtre,
 .filtre p {
-    font-family: 'ralewaybold';
+    font-weight: 600;
     font-size: 18px;
     padding-right: 20px;
 }
@@ -199,7 +204,7 @@ input[type=search] {
 
 .info-logement p {
     padding-left: 10px;
-    font-family: 'ralewaylight';
+    font-weight: 300;
     font-size: 14px;
     margin-top: 2%;
 }
@@ -230,7 +235,7 @@ input[type=search] {
 }
 
 h3 {
-    font-family: 'ralewaybold';
+    font-weight:600;
     font-size: 21px;
     padding: 0 1% 1% 1%;
 }
@@ -272,20 +277,20 @@ h3 {
 }
 
 .card-logement {
-    font-family: 'ralewaybold';
+    font-weight: 600;
     font-size: 16px;
     padding: 1% 1% 1% 4%;
 
 }
 
 .card-price {
-    font-family: 'ralewaylight';
+    font-weight: 300;
     font-size: 14px;
     padding: 1% 1% 1% 4%;
 }
 
 .price {
-    font-family: 'ralewaybold';
+    font-weight: 600;
 }
 
 .card-note {
@@ -300,7 +305,7 @@ h3 {
 
 #afficherplus {
     display: block;
-    font-family: 'ralewaybold';
+    font-weight: 600;
     font-size: 18px;
     padding: 1%;
     margin-top: 2%;
@@ -320,7 +325,7 @@ h3 {
 }
 
 .populaire {
-    font-family: 'ralewaybold';
+    font-weight: 600;
     font-size: 22px;
     padding: 0 1% 1% 1%;
     display: flex;
@@ -359,7 +364,7 @@ h3 {
 /*ACTIVITES A MARSEILLE */
 
 #activites {
-    font-family: 'ralewaybold';
+    font-weight: 600;
     font-size: 21px;
     margin: 3% 0 1.5% 0;
 }
@@ -416,10 +421,11 @@ h3 {
 }
 
 .container p {
+    font-family: Raleway;
     border-radius: 0 0 25px 25px;
     height: 50px;
     flex-shrink: 1;
-    font-family: 'ralewaybold';
+    font-weight: 700;
     font-size: 16px;
     padding: 18px;
 }
@@ -441,7 +447,7 @@ footer {
 }
 
 .titre-footer {
-    font-family: 'ralewaybold';
+    font-weight: 600;
     font-size: 18px;
     padding-bottom: 10%;
 
@@ -449,7 +455,7 @@ footer {
 
 ul {
     list-style-type: none;
-    font-family: 'ralewaylight';
+    font-weight: 300;
     font-size: 16px;
     margin: 0;
     padding: 0;
